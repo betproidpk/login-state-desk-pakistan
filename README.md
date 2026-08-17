@@ -1,7 +1,7 @@
 # W02 — Login State Desk Pakistan — Production Deploy v1
 
 Final host:
-https://login-state-desk-pakistan-production.up.railway.app/
+https://login-state-desk-pakistan.up.railway.app/
 
 ## Production status
 - index,follow enabled on all 8 HTML routes

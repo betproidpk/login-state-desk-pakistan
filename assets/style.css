@@ -45,7 +45,7 @@ h1{font-size:clamp(36px,5vw,62px);line-height:1.04;letter-spacing:-.045em;margin
 .whatsapp{position:fixed;right:22px;bottom:22px;z-index:50;background:#167f72;color:#fff!important;text-decoration:none;border-radius:18px;padding:12px 15px;box-shadow:0 12px 30px rgba(15,94,85,.26);display:flex;gap:10px;align-items:center;font-weight:850}
 .waicon{width:30px;height:30px;border-radius:50%;background:#fff;color:#167f72;display:grid;place-items:center}.whatsapp small{display:block;font-size:10px;opacity:.78;font-weight:650}
 .simple{max-width:900px;margin:44px auto 80px;padding:0 22px}.simple-card{background:#fff;border:1px solid var(--line);border-radius:28px;padding:40px;box-shadow:var(--shadow)}.simple h1{font-size:44px}.simple h2{font-size:25px;margin-top:34px}
-.form-preview{display:grid;gap:14px;margin-top:24px}.form-preview label{font-weight:800;font-size:14px}.form-preview input,.form-preview select,.form-preview textarea{width:100%;padding:12px 13px;border:1px solid var(--line);border-radius:11px;background:#f7f8fa;font:inherit}.form-preview button{border:0;border-radius:11px;padding:12px 16px;background:#a4adb9;color:#fff;font-weight:800;cursor:not-allowed}
+.form-preview{display:grid;gap:14px;margin-top:24px}.form-preview label{font-weight:800;font-size:14px}.form-preview input,.form-preview select,.form-preview textarea{width:100%;padding:12px 13px;border:1px solid var(--line);border-radius:11px;background:#f7f8fa;font:inherit}.form-preview button{border:0;border-radius:11px;padding:12px 16px;background:#0f8b7a;color:#fff;font-weight:800;cursor:pointer}.form-preview button:hover{background:#0b7568}
 .review-note{background:var(--amber-soft);border:1px solid #f1d08e;border-radius:14px;padding:14px 16px}
 @media(max-width:900px){
  .navlinks{display:none}.hero{margin-top:22px}.hero-card{grid-template-columns:1fr;padding:25px}.page{grid-template-columns:1fr;gap:0}.sidebar{display:none}.mobile-guide{display:block}.state-grid{grid-template-columns:1fr}.footer-inner{flex-direction:column}.simple h1{font-size:38px}
@@ -53,3 +53,5 @@ h1{font-size:clamp(36px,5vw,62px);line-height:1.04;letter-spacing:-.045em;margin
 @media(max-width:520px){body{font-size:15.5px}.nav{padding:11px 16px}.hero,.page,.simple{padding-left:16px;padding-right:16px}.hero-card{padding:19px;border-radius:22px}.hero p{font-size:16px}.whatsapp{right:14px;bottom:14px;padding:10px 12px}.simple-card{padding:24px}.footer-inner{padding-left:16px;padding-right:16px}}
 
 .form-preview input[type="checkbox"]{width:auto;margin-right:7px;vertical-align:middle}
+
+.safety-confirm{display:flex;gap:8px;align-items:flex-start;font-weight:650!important}.safety-confirm input{margin-top:5px}
