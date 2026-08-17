@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://FINAL-HOST/#website",
+      "url": "https://FINAL-HOST/",
+      "name": "Login State Desk Pakistan",
+      "inLanguage": "en-PK"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://FINAL-HOST/#publisher",
+      "name": "Login State Desk Pakistan",
+      "url": "https://FINAL-HOST/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://FINAL-HOST/#webpage",
+      "url": "https://FINAL-HOST/",
+      "name": "BetPro ID Login: Powerful Safe Access Guide for Pakistan",
+      "isPartOf": {
+        "@id": "https://FINAL-HOST/#website"
+      },
+      "inLanguage": "en-PK"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://FINAL-HOST/#article",
+      "headline": "BetPro ID Login: Powerful Safe Access Guide for Pakistan",
+      "author": {
+        "@type": "Organization",
+        "name": "Login State Desk Pakistan Editorial Desk"
+      },
+      "publisher": {
+        "@id": "https://FINAL-HOST/#publisher"
+      },
+      "datePublished": "2026-08-17",
+      "dateModified": "2026-08-17",
+      "image": [
+        "https://FINAL-HOST/assets/w02-betpro-id-login-state-map.webp"
+      ],
+      "inLanguage": "en-PK"
+    }
+  ]
+}
