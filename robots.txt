@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://login-state-desk-pakistan-production.up.railway.app/sitemap.xml
